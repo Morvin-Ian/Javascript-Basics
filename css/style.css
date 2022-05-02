@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.No{
+    margin: 10px;
+    flex-basis: 30%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  
+}
+
+#myform{
+    padding: 10px;
+    margin: 10px;
+    background-color: #00ffff;
+}
+
+#myform .name, .phone, .email{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
