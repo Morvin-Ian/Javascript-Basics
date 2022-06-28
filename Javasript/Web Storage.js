@@ -3,18 +3,20 @@ const details = {
     id:12345678,
     tasks:['eat','sleep','repeat']
 }
-json_details = JSON.stringify(details)
+const json_details = JSON.stringify(details)
+console.log(json_details)
 
 sessionStorage.setItem('sessionstore', json_details);
-const data_session= sessionStorage.getItem('sessionstore')
-console.log(JSON.parse(data_session))
+// const data_session= sessionStorage.getItem('sessionstore')
+// console.log(JSON.parse(data_session))
 
 localStorage.setItem('localstore', json_details);
 const data= localStorage.getItem('localstore')
-console.log(data)
+// console.log(JSON.parse(data))
 
 // Other methods
 // localStorage.clear()
-// localStorage.removeItem('name')
+localStorage.removeItem('name')
+
 // localStorage.key(index(0,1,2...))
 // localStorage.length

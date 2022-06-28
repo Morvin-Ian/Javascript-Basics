@@ -19,12 +19,12 @@ const object = {
 // console.log(object.combination())
 // console.log(object["specialization"]["Python"])
 
-// const Captain = Object.create(object); //Inheritance
-// Captain.name ="dCaptain Kenya"
-// console.log(Captain.position)
-// console.log(Captain.name)
-// console.log(Object.keys(object))
-// console.log(Object.values(object))
+const Captain = Object.create(object); //Inheritance
+Captain.name ="dCaptain Kenya"
+console.log(Captain.position)
+console.log(Captain.name)
+console.log(Object.keys(Captain))
+console.log(Object.values(Captain))
 
 //Destructing objects
 

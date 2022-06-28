@@ -11,7 +11,7 @@ const filtered_dets = details.filter(det => {
 console.log(filtered_dets);
 
 
-const mapped_det = filtered_dets.map(det =>{
+const mapped_det = details.map(det =>{
     return det.id;
 })
 console.log(mapped_det)

@@ -15,19 +15,8 @@ const object = {
 
 //converting object to JSON
 const json_format = JSON.stringify(object)
-// console.log(json_format)
+console.log(json_format)
 
-
-//json_format (type=string)
-// {
-    
-// "name":"Ian Morvin",
-// "position":78,
-// "languages":["Python","Javascript"],
-// "specialization":{"Python":"Backend",
-//                 "Javascript":"Frontend"}
-            
-// }
 
 // converting JSON to object
 const object_format = JSON.parse(json_format)
